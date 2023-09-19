@@ -1,0 +1,94 @@
+
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: cursive;
+    background-image: url('bg.png');
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.navbar{
+    display:flex;
+    gap:30px;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color:#ffc233;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.leftBox img{
+    height: 40px;
+    width: 50px; 
+    margin:20px 50px;
+    cursor: pointer;
+}
+
+.rightBox {
+    margin-right: 50px;
+}
+
+.rightBox button,.container button{
+    padding:10px 30px;
+    color: white;
+    background-color: rgba(147, 58, 58,0.8);
+    border-style: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 300px;
+    gap: 10px;
+}  
+
+.content{
+      text-align: center;
+      font-size: 80px;
+      color: #ffc233;
+      font-weight: bold;
+}
+
+.scroolBox{
+    position: absolute;
+    right:20px;
+    bottom:20px;
+}
+
+.scroolBox img{
+    height: 100px;
+    width: 100px; 
+    margin:20px 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
