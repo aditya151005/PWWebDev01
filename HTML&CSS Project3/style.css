@@ -1,0 +1,96 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+  }
+
+  .header {
+    background-color: black;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    gap:50px;
+  }
+
+  .navBar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  ul li{
+    list-style-type: none;
+  }
+
+  ul li a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .btn1{
+    position: fixed;
+    right: 50px;
+  }
+
+  .btn1 button{
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .logo img{
+    width:60px;
+    height: 50px;
+    margin: 0 30px;
+    cursor: pointer;
+  }
+
+  .container{
+    min-height: 100vh;
+    background-image: url('bg.png');
+    background-size:100vw 100vh;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+  }
+
+  .content{
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+      gap:5px;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .content h2{
+    width:50%;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  .content p{
+    text-align: center;
+    color: white;
+  }
+
+  .btn2 button{
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top:30px;
+    cursor: pointer;
+  }
