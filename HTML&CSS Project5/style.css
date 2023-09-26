@@ -1,0 +1,284 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    font-family: cursive;
+    font-size: larger;
+    background-color: rgb(17, 24, 39);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap:30px;
+    margin-right: 20px;
+}
+
+.navBar li{
+    list-style-type: none;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.navBar #Home{
+    background-color: #3108c6;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.hambrger img{
+    display: none;
+}
+
+.content{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap:20px;
+}
+
+.intro{
+    margin-top:100px;
+} 
+
+.introFL{
+    display: flex;
+    gap:10px;
+}
+
+.introFL img{
+    width:2rem;
+    height: 3rem;
+}
+
+.introFL h4{
+    margin: 0;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.introML h4{
+    font-size: 4rem;
+    color: white;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.introLL h4{
+    color: white;
+    margin: 0 auto;
+    color: goldenrod;
+    font-size: 2rem;
+}
+
+
+.pcImg img{
+    width:400px;
+    height:400px;
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0; 
+}
+
+.projects h4{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.projects h4:after{
+    content: " ";
+    display: block;
+    width: 4em;
+    height: .2em;
+    background-color: #3108c6;
+    border-radius: 10px;
+  }
+.fRProjects{
+    display: flex;
+    margin: 0;
+}
+
+.sRProjects{
+    display: flex;
+    margin: 0;
+}
+
+.projects figcaption{
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+.projects figure{
+    margin: 5px;
+}
+
+.projects figure img{
+    height:200px;
+    width:200px;
+}
+
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfo h4{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.contactInfo h4:after{
+    content: '';
+    display: block;
+    width: 5.7em;
+    height: .2em;
+    background-color: #3108c6;
+    border-radius: 10px;
+}
+
+.contactInfo .sMedia img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px 20px 10px;  
+    cursor: pointer;
+}
+
+/* Media Query  for mobile device */
+
+@media only screen and (max-width:425px){
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .hambrger img{
+        display: block;
+        width:30px;
+        height:30px;
+    }
+    .navBar{
+        display: none; 
+    }
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:1px;
+      }
+
+      .intro{
+        margin-top:0px;
+    } 
+
+      .introFL{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introFL img{
+        width:2rem;
+        height:2rem;
+    }
+
+      .introFL h4{
+        margin: 0 auto;
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .introML h4{
+        font-size: 2.5rem;
+        color: white;
+        margin: 0 auto;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .introLL h4{
+        color: white;
+        margin: 0 auto;
+        color: goldenrod;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .pcImg img{
+       width: 150px;
+       height:150px;
+       padding:10px auto;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+       
+    }
+
+    .projects figure img{
+        height:150px;
+        width:150px;
+        margin: 0;
+    }
+
+    .projects figure{
+        margin: 0px;
+    }
+
+    .projects h4{
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0px;
+       
+    }
+
+    .fRProjects{
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .sRProjects{
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .contactInfo h4{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+    }
+    .contactInfo .sMedia img{
+        width: 20px;
+        height: 20px;
+        margin: 5px 10px;  
+        cursor: pointer;
+    }
+}
