@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Adding the Title of the page -->
+    <title>HTML&CSS Project6(Beats Project)</title>
+
+    <!-- Adding the CSS file -->
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <!-- creating the header section and navigation Menu-->
+    <header class="header">
+
+    <!-- Creating the logo of Navigation Menu -->
+      <div class="logo">
+        <img src="/Photos/beatsLogo.png" alt="logo" />
+      </div>
+
+      <!-- Creating the Navigation Menu -->
+      <nav>
+        <ul class="navBar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Specs</a></li>
+          <li><a href="#">Case</a></li>
+          <li><a href="#">Products</a></li>
+          <li id="shop"><a href="#">Shop</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Creating the main Landing page -->
+    <main>
+      <section class="sLContent">
+        <div class="mImage">
+          <img src="/Photos/mainImage.png" alt="mImage" height="400px" />
+        </div>
+        <div class="mContent">
+          <div class="mImage1">
+            <img src="/photos/onEar.png" alt="OnEar-Img" />
+          </div>
+          <div class="textContent">
+            <h3>Beats 3</h3>
+            <h5>Overview</h5>
+            <p>
+              Enjoy award-winning Beats sound with wireless listening freedom
+              and a sleek, streamlined design with comfortable padded earphones,
+              delivering first-rate playback.
+            </p>
+            <div class="sBag">
+              <img src="logo/shoppingBag.png" alt="SBag" />
+              <span>Add to Bag</span>
+              <span>N399K</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+      <!-- Creating Social Media Icons -->
+      <section>
+        <nav class="sMedia">
+          <ul>
+            <li>
+              <a href=""> <img src="/Photos/appleLogo.png" alt="appleLogo" /></a>
+            </li>
+            <li>
+              <a href="">
+                <img src="/Photos/spotifyLogo.png" alt="spotifyLogo" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="/Photos/amazonLogo.png" alt="amazonLogo" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="/Photos/youtubeLogo.png" alt="youtubeLogo" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <!-- creating a new specification section  -->
+      <section class="specfication">
+
+        <!-- creating a specs logo  -->
+        <img src="/logo/specsLogo.png" alt="specs-logo" />
+        <section class="sConfig">
+
+          <!-- creating a specification list -->
+          <ul class="sList">
+            <li>
+              <img src="/logo/bluetooth.png" alt="bluetooth-logo" />
+              <h5>Connection</h5>
+              <p>Bluetooth v5.2</p>
+            </li>
+            <li>
+              <img src="/logo/battery.png" alt="battery-logo" />
+              <h5>Battery</h5>
+              <p>Duration 40h</p>
+            </li>
+            <li>
+              <img src="/logo/charger.png" alt="charger-logo" />
+              <h5>Load</h5>
+              <p>Fast Charge 4.2-AAC</p>
+            </li>
+            <li>
+              <img src="/logo/mic.png" alt="mic-logo" />
+              <h5>Microphone</h5>
+              <p>Supports Apple Siri and Google</p>
+            </li>
+          </ul>
+
+          <!-- Inserting specification Image -->
+          <div class="sImage">
+            <img src="/Photos/specsImage.png" alt="SpecsImage" />
+          </div>
+        </section>
+      </section>
+
+      <!-- creating a case Section -->
+      <section class="cSection">
+        <div class="clogo">
+          <img src="/logo/caseLogo.png" alt="caseLogo" />
+        </div>
+        <section class="cInfo">
+          <img src="/photos/caseImage.png" alt="caseImage" />
+          <div class="cDescription">
+            <p style="color: white">
+              With a comfortable and adaptable case so that you can store it
+              whenever you want, and keep your durability forever.
+            </p>
+            <div class="gIcon">
+              <img src="/logo/group.png" alt="groupImg" />
+              <p style="color: white">More Info</p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Section which allows users to buy a product -->
+      
+      <section class="bProduct">
+        <div class="bProductInfo">
+          <h5>Immense yourself in your music</h5>
+          <p>Buy Now, Upto 40% off.</p>
+          <div class="bagShop">
+            <img src="/logo/shoppingBag.png" alt="SBag" />
+            <p>Buy Now</p>
+          </div>
+        </div>
+        <div class="buySectionImg">
+          <img src="/Photos/buyNowSectionImage.png" alt="buyNowSectionImage" />
+        </div>
+      </section>
+
+      <!-- Creating cards for the products -->
+      <section>
+        <section class="pCards">
+          <div class="pLogo">
+            <img src="/logo/productLogo.png" alt="productLogo" />
+          </div>
+
+          <!-- creating cards for various products -->
+          <section class="WrapperPItem">
+
+            <!-- <section class="WrapperPItem1"> -->
+            <div class="pItem" id="pItem1">
+              <img src="/Photos/black.png" alt="blackHeadphone" />
+              <div class="pInfo">
+                <div class="tPInfo">
+                  <h5>Black</h5>
+                  <p>N299K</p>
+                </div>
+                <img src="/logo/shoppingBag.png" alt="SBag" />
+              </div>
+            </div>
+            <div class="pItem" id="pItem2">
+              <img src="/Photos/redBlack.png" alt="redBlackHeadphone" />
+              <div class="pInfo">
+                <div class="tPInfo">
+                  <h5>Red Black</h5>
+                  <p>N299K</p>
+                </div>
+                <img src="/logo/shoppingBag.png" alt="SBag" />
+              </div>
+            </div>
+            <div class="pItem" id="pItem3">
+              <img src="/Photos/nightBlack.png" alt="nightBlackHeadphone" />
+              <div class="pInfo">
+                <div class="tPInfo">
+                  <h5>Night Black</h5>
+                  <p>N299K</p>
+                </div>
+                <img src="/logo/shoppingBag.png" alt="SBag" />
+              </div>
+            </div>
+            <div class="pItem" id="pItem4">
+              <img src="/Photos/blue.png" alt="blueHeadphone" />
+              <div class="pInfo">
+                <div class="tPInfo">
+                  <h5>Blue</h5>
+                  <p>N299K</p>
+                </div>
+                <img src="/logo/shoppingBag.png" alt="SBag" />
+              </div>
+            </div>
+            <div class="pItem" id="pItem5">
+              <img src="/Photos/twilightGray.png" alt="twilightGrayHeadphone" />
+              <div class="pInfo">
+                <div class="tPInfo">
+                  <h5>Twilight Gray</h5>
+                  <p>N299K</p>
+                </div>
+                <img src="/logo/shoppingBag.png" alt="SBag" />
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+
+    <!-- Creating footer area of website -->
+
+    <footer class="footer">
+        <section>
+            <!-- Inserting beats logo -->
+            <div class="bLogo">
+                <img src="/Photos/beatsLogo.png" alt="beatsLogo">
+            </div>
+        </section>
+
+        <!-- Creating Products Navigation Bar -->
+       <section>
+          <ul class="pNavigation">
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Earbuds</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+       </section>
+
+        <!-- Creating Supports Navigation Bar -->
+        <section>
+            <ul class="sNavigation">
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Product Help</a></li>
+              <li><a href="#">Register</a></li>
+              <li><a href="#">Updates</a></li>
+              <li><a href="#">Provides</a></li>
+            </ul>
+         </section>
+
+         <!-- Creating Subscription Section-->
+         <section class="subSocial">
+        <section class="subSection">
+             <input type="email" placeholder="Email">
+             <div class="subButton">
+                <img src="/logo/rightArrow.png" alt="rightArrowLogo">
+                <p>Subscribe</p>
+             </div>
+         </section>
+
+       <!-- Creating SocialMedia Icons Section-->
+       <section class="socialMedia">
+                <img src="/logo/facebook.png" alt="facebookLogo">
+                <img src="/logo/twitter.png" alt="twitterLogo">
+                <img src="/logo/instagram.png" alt="instagramLogo">
+                <img src="/logo/linkedin.png" alt="linkedinLogo">
+       </section>
+    </section>
+
+        <!-- adding  up arrow -->
+        <section>
+            <div class="uArrow">
+                <img src="/logo/upArrow.png" alt="upArrowLogo" >
+            </div>
+        </section>
+       </section>
+    </footer>
+  </body>
+</html>

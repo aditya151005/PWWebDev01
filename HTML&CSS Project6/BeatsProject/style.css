@@ -1,0 +1,412 @@
+
+/* Adding the poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* universal Selector */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Defining the style of the body */
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+
+/* Styling the header section */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:30px 20px 0px 30px;
+}
+
+
+/* Designing the navigation Menu */
+
+.navBar{
+    display: flex;
+    gap:50px;
+    margin-right:50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ /* removing the default css of li tags */ 
+
+.navBar li{
+    list-style-type: none;
+}
+
+ /* removing the default css of a tags and color of text inside the a tag*/ 
+.navBar li a{
+    text-decoration: none;
+    color:white;
+}
+
+/* Designing the shop button of Navigation menu */
+.navBar #shop{
+    background-color: rgb(63, 62, 62);
+    padding:3px 30px;
+    border-radius: 5px;
+    box-shadow:-2px -2px 1px grey;
+}
+
+
+/* Designing the Main section */
+.sLContent{
+    min-height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.mImage img{
+    position: absolute;
+    top:-150px;
+    left:250px;
+    height: 100%;
+}
+
+.mContent{
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin:100px;
+}
+
+.textContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    width:300px;
+}
+
+.textContent h3{
+    font-size: 3rem;
+    width:100%;
+}
+
+.textContent h5{
+    font-size: 1rem;
+    width:100%;
+}
+.textContent p{
+    width:100%;
+    line-height: 2rem;
+    font-size: 15px;
+}
+
+.mContent .mImage1 img{
+    width: 300px;
+    margin-left:150px;
+}
+
+.sBag{
+   width:100%;
+   display: flex;
+   margin: 20px;
+   padding: 10px;
+   border-radius: 10px;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: rgb(45, 44, 44);
+}
+
+
+/* designing the social media section */
+.sMedia ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+
+.sMedia a img{
+    width:100px;
+}
+
+/* designing the specification section */
+
+.specfication{
+    margin:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+
+
+.sConfig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sList{
+    color: white;
+    position: relative;
+    right:150px;
+}
+
+.sList li{
+    list-style-type: none;
+    margin: 30px;
+}
+
+.sList li:nth-child(1){
+   position: absolute;
+   left:100px;
+   bottom: 200px;
+   width: 100%;
+}
+
+.sList li:nth-child(4){
+    position: absolute;
+    left:100px;
+    width: 100%;
+ }
+
+ .sList li p{
+    font-size: 13px;
+ }
+
+ /* designing the case section */ 
+
+ .cSection{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+ }
+
+ .cInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+ }
+
+ .cDescription{
+    width:200px;
+ }
+
+ .cDescription p{
+    font-size: 15px;
+ }
+
+ .gIcon{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(45, 44, 44);
+    padding: 10px 0;
+    border-radius: 10px;
+ }
+
+ /* Designing the buy product section */
+ .bProduct{
+    width: 1000px;
+    height: 400px;
+    background-color: #181a1b;
+    margin: 100px auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+ }
+
+ .bProductInfo{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width:30%;
+ }
+
+ .bProduct h5{
+    font-size: 1.5rem;
+ }
+
+ .bProduct p{
+    font-size: 15px;
+ }
+
+ .bagShop{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   background-color: black;
+   padding: 10px 15px;
+   width: 46%;
+   border-radius: 10px;
+ }
+
+/* designing the product section for displaying cards of the items */
+
+ .pCards{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+ }
+
+ .pLogo img{
+    width:50%;
+    height: 50%;
+    margin-left: 200px;
+ }
+
+.pItem{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #181a1b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    align-items: center;
+    position: relative;
+}
+
+.WrapperPItem{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+    grid-gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pInfo{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+
+.pInfo img{
+    background-color: black;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+
+.pItem>img{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top:-50px;
+}
+
+/* Desiging footer Section */
+
+.footer{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.pNavigation li{
+    list-style-type: none;
+}
+
+.pNavigation li a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.pNavigation li:first-child{
+   font-size: 1.9rem;
+   margin-bottom: 10px;
+}
+
+
+.sNavigation li{
+    list-style-type: none;
+}
+
+.sNavigation li a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.sNavigation li:first-child{
+   font-size: 1.9rem;
+   margin-bottom: 10px;
+}
+
+.subSection{
+    position: relative;
+}
+
+.subButton{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap:5px;
+    background-color: black;
+    padding: 5px;
+    width: 50%;
+    border-radius: 10px;
+    position: absolute;
+    bottom:-5px;
+    left:100px;
+}
+
+.subButton p{
+    color: white;
+    font-size: 14px;
+}
+
+.subSection input{
+    width: 250px;
+    height: 40px;
+    background-color: #181a1b;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+}
+
+.subSocial{
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMedia{
+    margin: 30px 0;
+    padding: 5px;
+}
+
+.uArrow img{
+    position: relative;
+    left:120px;
+}
