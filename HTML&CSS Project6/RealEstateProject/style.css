@@ -1,0 +1,555 @@
+/* reset css */
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color:white;
+    
+}
+
+/* styling body */
+
+body{
+    background-color:whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* styling header part of the page */
+
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/photo/mainBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+}
+
+.sheader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding: 30px;
+   
+}
+
+.sheader::after{
+    content:'';
+    background-color:white;
+    margin-top: 30px;
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    bottom: 20px;
+    border-radius: 50px;
+}
+
+.navLogo img{
+ height: 30px;
+ width: 100px;
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.navBar li{
+    list-style-type: none;
+}
+
+.navBar li a{
+ text-decoration: none; 
+ font-size: 20px; 
+}
+
+.sHeaderText{
+   margin: 50px 150px;
+   padding: 20px;
+}
+
+.sHeaderText h3{
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.sHeaderText p{
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.sHeaderText button{
+    margin: 7px;
+    padding: 5px 10px;
+    background-color:  rgb(103, 103, 224);
+    border: none;
+    border-radius: 40px;
+}
+
+
+/* styling Main Landing page  and RealState Content*/
+
+.logoImgWrapper{
+    height: 110px;
+    width: 90vw;
+    background-color:white;
+    margin:0 auto;
+    position: relative;
+    bottom:50px;
+    border-radius: 20px;
+}
+
+.logoImgWrapper .logoImg{
+    padding:30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.realStateContent{
+    margin-top: 10px;
+    margin-bottom:70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.realStateContent h3{
+    font-size: 2rem;
+    color: black;
+}
+
+.cardList{
+    display: grid;
+    grid-template-rows:auto auto auto;
+    grid-template-columns:auto auto auto;
+    gap:10px;
+}
+
+.card img{
+    width:400px;
+    height: 500px;
+    border-radius: 10px;
+    margin:50px  0;
+}
+
+.card{
+    color: black;
+}
+
+.cardContent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cardContent button{
+    background-color:  rgb(103, 103, 224);;
+    border: none;
+    padding: 5px;
+    height: 50%;
+    width: 30%;
+    border-radius: 70px;
+
+}
+
+.cardContentText p:first-child{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cardContentText p{
+    color: rgb(103, 103, 224);;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+.cardList .card:nth-child(2){
+    margin-top: 10px;
+    position: relative;
+}
+
+.cardList .card:nth-child(3){
+    margin-top: 40px;
+    position: relative;
+}
+
+.cardList .card:nth-child(4){
+    margin-top: 40px;
+}
+
+.cardList .card:nth-child(5){
+    margin-top: 15px;
+}
+
+.cardList .card:nth-child(8){
+    margin-top: 15px;
+}
+
+.cardList .card:nth-child(9){
+    margin-top: 40px;
+}
+
+#card1{
+    position: relative;
+}
+
+#cardContent1{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    bottom:70px;
+    left:40px; 
+}
+
+#card2{
+    position: relative;
+}
+
+#cardContent2{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom:50px;
+    left:40px; 
+}
+
+#card3{
+    position: relative;
+}
+
+#cardContent3{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom:30px;
+    left:40px; 
+}
+
+#card4{
+    position: relative;
+}
+
+#cardContent4{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom:30px;
+    left:40px; 
+}
+
+#card5{
+    position: relative;
+}
+
+#cardContent5{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom:50px;
+    left:40px; 
+}
+
+#card6{
+    position: relative;
+}
+
+#cardContent6{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom:70px;
+    left:40px; 
+}
+
+#card7{
+    position: relative;
+}
+
+#cardContent7{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom:70px;
+    left:40px; 
+}
+
+#card8{
+    position: relative;
+}
+
+#cardContent8{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom:50px;
+    left:40px; 
+}
+
+
+#card9{
+    position: relative;
+}
+
+#cardContent9{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom:30px;
+    left:40px; 
+}
+
+
+/* styling featuresSection part */
+
+.featuresSection h1,p{
+    color: black;
+}
+
+.featuresSection1{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+    margin: 200px 10px; 
+}
+
+.featuresSection1 h3{
+    font-size:3rem;
+    color: black;
+    font-weight: bold;
+}
+
+.featuresSection1 button{
+    margin-top: 20px;
+    background-color:  rgb(103, 103, 224);;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+.featuresImg1{
+    position: relative;
+    width: 70%;
+    margin-left: 105px;
+}
+
+.featuresImg1 img:first-child{
+    width: 420px;
+    height: 380px;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.featuresImg1 img:last-child{
+    width: 585px;
+    position: absolute;
+    left:-115px;
+    top:10px;
+    z-index: -1;
+}
+
+
+
+
+.featuresSection2{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    align-items: center;
+    margin: 100px;  
+}
+
+
+.featuresImg2{
+    position: relative;
+    width: 80%;
+}
+
+.featuresImg2 img:first-child{
+    width: 400px;
+    position: absolute;
+    bottom:-250px;
+    left:105px;
+    height: 450px;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.featuresImg2 img:last-child{
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    left:-60px;
+    top:-200px;
+    z-index: -1;
+}
+
+
+.featuresSection2 h3{
+    font-size:3rem;
+    color: black;
+    font-weight: bold;
+}
+
+.featuresSection2 button{
+    margin-top: 20px;
+    background-color:  rgb(103, 103, 224);;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+
+
+/* Styling subscriberSection */
+
+.subscriberSection{
+    width: 90vw;
+    height: 500px;
+    margin: 300px auto 100px;
+    background-color: rgb(103, 103, 224);
+    border-radius: 50px;
+}
+
+.subscriberContent h3{
+    font-size: 4rem;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.subscriberContent p{
+    padding: 5px  0px;
+    text-align: center;
+    color: white;
+}
+
+.wrapperSubSection{
+    margin-top: 40px;
+    gap:50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.email{
+    position: relative;
+}
+
+.email img{
+    position: absolute;
+    left:20px;
+    top:10px
+}
+
+.email input{
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(79, 79, 191);
+    border: none;
+}
+
+.wrapperSubSection button{
+    width: 150px;
+    height: 50px;
+    color:  rgb(103, 103, 224);
+    font-size: 20px;
+    font-weight: bold;
+    background-color:white;
+    border: none;
+    border-radius: 30px;
+}
+
+/* Styling footer Part */
+
+.footer{
+    margin: 100px 120px;
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+
+.footer .firstPart{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.logo img{
+    height: 70px;
+    width: 120px;
+}
+
+.socialMedia img{
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.firstPartText p{
+    font-weight: bold;
+}
+
+.secondPart ul li{
+  margin-left: 250px;
+  padding: 10px;
+}
+
+.thirdPart ul li{
+    margin-left: 50px;
+    padding: 10px;
+  }
+
+.fourthPart ul li{
+    margin-left: 50px;
+    padding: 10px;
+  }
+
+.footer ul li:first-child{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer ul li a:first-child{
+    font-weight: bold;
+}
+
+.footer li a{
+    color: black;
+    text-decoration: none;
+}
