@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(223, 227, 227);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Designing the header section */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 80px; 
+}
+
+
+.navigationBar ul{
+    display: flex;
+    align-items: center;
+    gap:80px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* Designing the main Landing Page */
+
+.mainContent{
+    margin: 150px 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.mainContent h3{
+    text-align: center;
+    color:	mediumseagreen;
+    font-weight: bold;
+}
+
+.mainContent p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.featuresList{
+    display: flex;
+    gap: 30px;
+}
+
+.featuresList .list1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding:10px 30px;
+    height: 60px;
+    width: 130px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(134, 129, 129),-2px -2px 3px rgb(134, 129, 129);
+}
+
+.featuresList .list2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding:10px 30px;
+    height: 60px;
+    width: 130px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(134, 129, 129),-2px -2px 3px rgb(134, 129, 129);
+}
+
+.featuresList .list3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding:10px 30px;
+    height: 60px;
+    width: 130px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(134, 129, 129),-2px -2px 3px rgb(134, 129, 129);
+}
+
+.list p:first-child{
+    color: mediumseagreen;
+    font-weight: bold;
+}
+
+.list p:last-child{
+    font-weight: bold;
+}
+
